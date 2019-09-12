@@ -1,0 +1,41 @@
+.header {
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+  padding: 20px 0;
+
+  .inputSearch {
+    border: 1px solid gray;
+    padding: 12px;
+    width: 100%;
+  }
+}
+
+.countryList {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.countryBox {
+  padding: 10px;
+  width: 265px;
+
+  .imageContainer {
+    height: 160px;
+    overflow: hidden;
+  }
+
+  .image {
+    height: 160px;
+    object-fit: cover;
+    width: 265px;
+  }
+
+  .title {
+    font-size: 16px;
+    height: 30px;
+    overflow: hidden;
+    padding: 8px 0;
+  }
+}
